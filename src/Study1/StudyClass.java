@@ -16,6 +16,7 @@ public class StudyClass {
 		int x;  //	変数を入れる準備
 		x = 6;
 		System.out.println(x * x * 3.14);
+		System.out.println("javaの３ステップ。①ソースコードの作成。②コンパイル。③実行。");
 	}
 
 }
