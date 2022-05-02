@@ -21,19 +21,34 @@ public class StudyClass {
 		System.out.println("ソースコードの外側部分（クラスブロック）を記述");
 		System.out.println("ソースコードの内側部分（メソッドブロック）に命令を書いていく");
 		System.out.println("データ型（整数）");
-		byte glasses; glasses = 2;
+		byte glasses; glasses = 2; //byte age = 22;ともできる
 		short age; age = 18;
 		int salary; salary = 152000;  //	主にintを使う
 		long worldPeople; worldPeople = 6900000000L;
 		System.out.println("データ型（小数）");
 		float weight; weight = 67.5F;
 		double height; height = 171.2;  //doubleの方がメモリを消費するがより厳密に計算できる。小数点を使う場合、基本はdouble型にする。
-		System.out.println("aaa");
-		System.out.println("");
-		System.out.println("");
+		System.out.println("データ型（真偽値）");
+		boolean isError; isError = true;//	意味　エラーである
+		boolean rusult; rusult = false;//	意味　結果は失敗
+		System.out.println("データ型（文字）");
+		char zodiac = '辰';
+		String name; name = "ニャンコ先生";
+		System.out.println("変数の初期化  型　変数名　＝　代入するデータ;");
+		System.out.println("上書きされたくない場合はfinalを使う。　final 型　定数名 = 初期値;");
+//		定数名は全て大文字!
+		final double PI = 3.14;
 		
+		int a = 3;
+		int b = 5;
+		int c = a * b;
+		System.out.println(c);
 		
-		
+		boolean error = true;
+		char oneWord = '駆';
+		double pi = 3.14;
+		long peple = 314159265853979L;
+		String word = "港の攻撃！　敵に15ポイントのダメージを与えた！";
 	}
 
 }
