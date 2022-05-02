@@ -28,7 +28,7 @@ public class StudyClass {
 		System.out.println("データ型（小数）");
 		float weight; weight = 67.5F;
 		double height; height = 171.2;  //doubleの方がメモリを消費するがより厳密に計算できる。小数点を使う場合、基本はdouble型にする。
-		System.out.println("");
+		System.out.println("aaa");
 		System.out.println("");
 		System.out.println("");
 		
