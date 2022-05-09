@@ -50,6 +50,8 @@ public class StudyClass {
 		long peple = 314159265853979L;
 		String word = "港の攻撃！　敵に15ポイントのダメージを与えた！";
 		System.out.println("私の好きな記号は(\")です");
+		System.out.println("私の好きな記号は(\")です");
+		
 	}
 
 }
