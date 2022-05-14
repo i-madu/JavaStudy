@@ -50,6 +50,7 @@ public class StudyClass {
 		long peple = 314159265853979L;
 		String word = "港の攻撃！　敵に15ポイントのダメージを与えた！";
 		System.out.println("私の好きな記号は(\")です");
+		System.out.println("算術演算子+ - * / % は基本評価が左から右");
 		System.out.println("インクリメント/デクリメント演算子　＋＋　ーー");
 		int d = 100;
 		d++; //	aの内容が１増える
